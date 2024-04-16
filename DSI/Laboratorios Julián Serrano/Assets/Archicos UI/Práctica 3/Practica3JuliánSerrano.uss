@@ -1,0 +1,41 @@
+.botones {
+    background-color: rgba(56, 56, 56, 0);
+    background-image: url('project://database/Assets/Sprites/botones.png?fileID=2800000&guid=029ec36aafb7d4b4ab79be5f00aa8e35&type=3#botones');
+    font-size: 40px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.redes {
+    background-image: none;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.verde {
+    background-color: rgb(71, 214, 28);
+}
+
+.slider {
+    width: 300px;
+    height: 20px;
+}
+
+.botonesHover {
+    background-color: rgba(56, 56, 56, 0);
+    background-image: url('project://database/Assets/Sprites/botones%20hover.png?fileID=2800000&guid=956196246c1c33b45ba29dff160c602f&type=3#botones hover');
+    font-size: 40px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

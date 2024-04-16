@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Archicos%20UI/Pr%C3%A1ctica%203/Practica3Juli%C3%A1nSerrano.uss?fileID=7433441132597879392&amp;guid=bdaf7cd7df4ca274585123550eda3e4c&amp;type=3#Practica3JuliánSerrano" />
+    <ui:VisualElement name="Pantalla" style="width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Sprites/Space-PNG-Picture.png?fileID=2800000&amp;guid=221209fe4d507d74cbeef1ab486b1ff1&amp;type=3#Space-PNG-Picture&apos;);">
+        <ui:VisualElement name="Logo" style="background-image: url(&apos;project://database/Assets/Sprites/logo.png?fileID=2800000&amp;guid=d1e0324afc3ef4748957a755b722abf0&amp;type=3#logo&apos;); width: 100%; height: 25%; -unity-background-scale-mode: scale-to-fit;" />
+        <ui:VisualElement name="Botones" style="width: 100%; height: 50%; align-items: center; justify-content: space-around;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="Play" class="botones" style="width: 300px; height: 60px; font-size: 40px; color: rgb(0, 0, 0); overflow: hidden;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" class="botones" style="width: 300px; height: 60px; font-size: 40px; -unity-text-outline-color: rgb(12, 12, 12); color: rgb(0, 0, 0); overflow: hidden;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" class="botones" style="color: rgb(0, 0, 0); width: 300px; height: 60px; overflow: hidden;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SliderElement" style="width: 100%; height: 20px; flex-direction: row; align-items: stretch; justify-content: space-around; font-size: 20px; -unity-text-align: lower-center; white-space: normal; color: rgb(255, 255, 255); display: flex;">
+            <ui:Slider picking-mode="Ignore" label="Audio" value="42" high-value="100" name="Audio" class="slider" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Redes" style="width: 100%; height: 25%; flex-direction: row; align-items: center; justify-content: space-around; padding-left: 30%; padding-right: 30%; padding-top: 0; padding-bottom: 0;">
+            <ui:Button display-tooltip-when-elided="true" name="Instagram" class="redes" style="width: 50px; height: 50px; background-image: url(&apos;project://database/Assets/Sprites/instagram.png?fileID=2800000&amp;guid=92eb5d64c0cedc04299ae12b43b7bebf&amp;type=3#instagram&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="Discord" class="redes" style="background-image: url(&apos;project://database/Assets/Sprites/Disscord.png?fileID=2800000&amp;guid=55f721b435dc2db4e87a5cc425d475f9&amp;type=3#Disscord&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="Twitter" class="redes" style="background-image: url(&apos;project://database/Assets/Sprites/Twitter.png?fileID=2800000&amp;guid=3e7cf583e9a85ed4fa876c94d7dcbdf6&amp;type=3#Twitter&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
